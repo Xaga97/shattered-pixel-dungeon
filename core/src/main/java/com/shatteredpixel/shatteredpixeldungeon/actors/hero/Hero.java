@@ -198,6 +198,7 @@ public class Hero extends Char {
 		int curHT = HT;
 		
 		HT = 40 + 5*(lvl-1) + HTBoost;
+		STR++;
 		float multiplier = RingOfMight.HTMultiplier(this);
 		HT = Math.round(multiplier * HT);
 		
@@ -1533,6 +1534,7 @@ public class Hero extends Char {
 		}
 
 		GameScene.gameOver();
+		GameScene.show( new WndGame() );
 		
 		if (cause instanceof Hero.Doom) {
 			((Hero.Doom)cause).onDeath();
