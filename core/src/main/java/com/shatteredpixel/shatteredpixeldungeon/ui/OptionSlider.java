@@ -69,7 +69,7 @@ public abstract class OptionSlider extends Component {
 
 		sliderTicks = new ColorBlock[(maxVal - minVal) + 1];
 		for (int i = 0; i < sliderTicks.length; i++){
-			add(sliderTicks[i] = new ColorBlock(1, 11, 0xFF222222));
+			add(sliderTicks[i] = new ColorBlock(1, 11, 0xFF333333));
 		}
 		add(sliderNode);
 	}

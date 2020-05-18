@@ -40,7 +40,7 @@ public class GoldIndicator extends Component {
 	@Override
 	protected void createChildren() {
 		tf = new BitmapText( PixelScene.pixelFont);
-		tf.hardlight( 0xFFFF00 );
+		tf.hardlight( 0xFFFFFF );
 		add( tf );
 		
 		visible = false;

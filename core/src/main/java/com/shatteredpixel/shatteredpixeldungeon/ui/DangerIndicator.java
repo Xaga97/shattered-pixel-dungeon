@@ -32,7 +32,7 @@ import com.watabou.noosa.Image;
 
 public class DangerIndicator extends Tag {
 	
-	public static final int COLOR	= 0xFF4C4C;
+	public static final int COLOR	= 0xFF6C6C;
 	
 	private BitmapText number;
 	private Image icon;

@@ -46,11 +46,11 @@ public class SimpleButton extends Component {
 		add( new PointerArea( image ) {
 			@Override
 			protected void onPointerDown( PointerEvent event ) {
-				image.brightness( 1.2f );
+				image.brightness( 0.6f );
 			}
 			@Override
 			protected void onPointerUp( PointerEvent event ) {
-				image.brightness( 1.0f );
+				image.brightness( 1.8f );
 			}
 			@Override
 			protected void onClick( PointerEvent event ) {
